@@ -27,19 +27,19 @@ public class FrameKeyboardViewClickListener implements View.OnClickListener {
             case R.id.quick_keys_popup_backspace:
                 mKeyboardActionListener.onKey(KeyCodes.DELETE, null, 0, null, true);
                 break;
-            case R.id.quick_keys_popup_quick_keys_settings:
-                Intent i = new Intent(v.getContext(), MainSettingsActivity.class);
-                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_NO_HISTORY | Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
-                FragmentChauffeurActivity.addIntentArgsForSettingRootFragmentToUi(i, QuickTextSettingsFragment.class, null);
-                v.getContext().startActivity(i);
-                mKeyboardActionListener.onCancel();
-                break;
+//            case R.id.quick_keys_popup_quick_keys_settings:
+//                Intent i = new Intent(v.getContext(), MainSettingsActivity.class);
+//                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_NO_HISTORY | Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
+//                FragmentChauffeurActivity.addIntentArgsForSettingRootFragmentToUi(i, QuickTextSettingsFragment.class, null);
+//                v.getContext().startActivity(i);
+//                mKeyboardActionListener.onCancel();
+//                break;
         }
     }
 
     public void registerOnViews(View rootView) {
         rootView.findViewById(R.id.quick_keys_popup_close).setOnClickListener(this);
         rootView.findViewById(R.id.quick_keys_popup_backspace).setOnClickListener(this);
-        rootView.findViewById(R.id.quick_keys_popup_quick_keys_settings).setOnClickListener(this);
+//        rootView.findViewById(R.id.quick_keys_popup_quick_keys_settings).setOnClickListener(this);
     }
 }

@@ -48,7 +48,7 @@ class ChewbaccaUncaughtExceptionHandler implements UncaughtExceptionHandler {
 
     public void uncaughtException(Thread thread, Throwable ex) {
         Log.e(TAG, "Caught an unhandled exception!!!", ex);
-        boolean ignore = false;
+        boolean ignore = true; // false was here
 
         // https://github.com/AnySoftKeyboard/AnySoftKeyboard/issues/15
         //https://github.com/AnySoftKeyboard/AnySoftKeyboard/issues/433

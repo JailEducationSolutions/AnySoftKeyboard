@@ -1559,13 +1559,13 @@ public class AnySoftKeyboard extends InputMethodService implements
                 }
                 break;
             case KeyCodes.VOICE_INPUT:
-                if (mVoiceRecognitionTrigger.isInstalled()) {
-                    mVoiceRecognitionTrigger.startVoiceRecognition(getCurrentKeyboard().getDefaultDictionaryLocale());
-                } else {
-                    Intent voiceInputNotInstalledIntent = new Intent(getApplicationContext(), VoiceInputNotInstalledActivity.class);
-                    voiceInputNotInstalledIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                    startActivity(voiceInputNotInstalledIntent);
-                }
+//                if (mVoiceRecognitionTrigger.isInstalled()) {
+//                    mVoiceRecognitionTrigger.startVoiceRecognition(getCurrentKeyboard().getDefaultDictionaryLocale());
+//                } else {
+//                    Intent voiceInputNotInstalledIntent = new Intent(getApplicationContext(), VoiceInputNotInstalledActivity.class);
+//                    voiceInputNotInstalledIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//                    startActivity(voiceInputNotInstalledIntent);
+//                }
                 break;
             case KeyCodes.CANCEL:
                 if (mOptionsDialog == null || !mOptionsDialog.isShowing()) {
@@ -1573,7 +1573,7 @@ public class AnySoftKeyboard extends InputMethodService implements
                 }
                 break;
             case KeyCodes.SETTINGS:
-                showOptionsMenu();
+//                showOptionsMenu();
                 break;
             case KeyCodes.SPLIT_LAYOUT:
             case KeyCodes.MERGE_LAYOUT:

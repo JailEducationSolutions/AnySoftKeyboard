@@ -8,7 +8,7 @@
          android:keyHeight="@integer/key_normal_height">
         <Key ask:isFunctional="true" android:keyWidth="10%p" android:codes="-10" ask:longPressCode="-102"
              android:keyEdgeFlags="left"/>
-        <Key ask:isFunctional="true" android:keyWidth="10%p" android:codes="-4"/>
+        <!--<Key ask:isFunctional="true" android:keyWidth="10%p" android:codes="-4"/>-->
 
         <Key ask:isFunctional="true" android:codes="63" android:keyLabel="\?"
              android:popupCharacters="!/@\u0026\u00bf\u00a1"/>
@@ -28,7 +28,7 @@
          android:keyHeight="@integer/key_normal_height">
         <Key ask:isFunctional="true" android:keyWidth="10%p" android:codes="-10" ask:longPressCode="-102"
              android:keyEdgeFlags="left"/>
-        <Key ask:isFunctional="true" android:keyWidth="10%p" android:codes="-4"/>
+        <!--<Key ask:isFunctional="true" android:keyWidth="10%p" android:codes="-4"/>-->
 
         <Key ask:isFunctional="true" android:codes="63" android:keyLabel="\?"
              android:popupCharacters="!/@\u0026\u00bf\u00a1"/>

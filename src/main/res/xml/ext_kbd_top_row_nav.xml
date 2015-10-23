@@ -14,6 +14,6 @@
          android:isRepeatable="true" ask:hintLabel=" "/>
     <Key android:keyWidth="15%p" ask:isFunctional="true" android:codes="@integer/key_code_arrow_right"
          android:isRepeatable="true" ask:hintLabel=" "/>
-    <Key android:keyWidth="15%p" android:horizontalGap="5%p" ask:isFunctional="true"
-         android:codes="@integer/key_code_voice_input" ask:hintLabel=" " android:keyEdgeFlags="right"/>
+    <!--<Key android:keyWidth="15%p" android:horizontalGap="5%p" ask:isFunctional="true"-->
+         <!--android:codes="@integer/key_code_voice_input" ask:hintLabel=" " android:keyEdgeFlags="right"/>-->
 </Row>

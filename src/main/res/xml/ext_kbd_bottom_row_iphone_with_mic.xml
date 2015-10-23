@@ -12,7 +12,7 @@
         <Key ask:isFunctional="true" android:keyWidth="10%p" android:codes="@integer/key_code_mode_alphabet"
              ask:keyDynamicEmblem="icon" ask:longPressCode="-98"/>
 
-        <Key ask:isFunctional="true" android:keyWidth="10%p" android:codes="-4"/>
+        <!--<Key ask:isFunctional="true" android:keyWidth="10%p" android:codes="-4"/>-->
 
         <Key android:keyWidth="30%p" android:codes="@integer/key_code_space"/>
 
