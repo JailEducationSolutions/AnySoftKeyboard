@@ -13,7 +13,7 @@
             android:title="@string/auto_caps"/>
 
         <CheckBoxPreference
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:key="candidates_on"
             android:persistent="true"
             android:title="@string/candidates_on"
