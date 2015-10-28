@@ -106,24 +106,24 @@
         <Key
             android:keyLabel="\uD83D\uDCB9"
             android:keyOutputText="\uD83D\uDCB9"/>
-        <Key
-            android:keyLabel="\uD83D\uDD2B"
-            android:keyOutputText="\uD83D\uDD2B"/>
-        <Key
-            android:keyLabel="\uD83D\uDD2A"
-            android:keyOutputText="\uD83D\uDD2A"/>
-        <Key
-            android:keyLabel="\uD83D\uDCA3"
-            android:keyOutputText="\uD83D\uDCA3"/>
-        <Key
-            android:keyLabel="\uD83D\uDC89"
-            android:keyOutputText="\uD83D\uDC89"/>
-        <Key
-            android:keyLabel="\uD83D\uDC8A"
-            android:keyOutputText="\uD83D\uDC8A"/>
-        <Key
-            android:keyLabel="\uD83D\uDEAC"
-            android:keyOutputText="\uD83D\uDEAC"/>
+        <!--<Key-->
+            <!--android:keyLabel="\uD83D\uDD2B"-->
+            <!--android:keyOutputText="\uD83D\uDD2B"/>-->
+        <!--<Key-->
+            <!--android:keyLabel="\uD83D\uDD2A"-->
+            <!--android:keyOutputText="\uD83D\uDD2A"/>-->
+        <!--<Key-->
+            <!--android:keyLabel="\uD83D\uDCA3"-->
+            <!--android:keyOutputText="\uD83D\uDCA3"/>-->
+        <!--<Key-->
+            <!--android:keyLabel="\uD83D\uDC89"-->
+            <!--android:keyOutputText="\uD83D\uDC89"/>-->
+        <!--<Key-->
+            <!--android:keyLabel="\uD83D\uDC8A"-->
+            <!--android:keyOutputText="\uD83D\uDC8A"/>-->
+        <!--<Key-->
+            <!--android:keyLabel="\uD83D\uDEAC"-->
+            <!--android:keyOutputText="\uD83D\uDEAC"/>-->
         <Key
             android:keyLabel="\uD83D\uDD14"
             android:keyOutputText="\uD83D\uDD14"/>

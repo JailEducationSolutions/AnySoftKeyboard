@@ -82,7 +82,7 @@
             android:title="@string/swipe_right_two_fingers_action"/>
 
         <net.evendanan.pushingpixels.ListPreference
-            android:defaultValue="@string/swipe_action_value_utility_keyboard"
+            android:defaultValue="@string/swipe_action_value_none"
             android:dialogTitle="@string/swipe_up_from_spacebar_action_title"
             android:entries="@array/swipe_action_types_names"
             android:entryValues="@array/swipe_action_types_values"

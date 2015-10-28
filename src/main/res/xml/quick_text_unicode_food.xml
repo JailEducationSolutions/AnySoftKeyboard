@@ -4,21 +4,21 @@
           android:keyWidth="20%p">
 
     <Row>
-        <Key
-            android:keyLabel="\uD83C\uDF78"
-            android:keyOutputText="\uD83C\uDF78"/>
-        <Key
-            android:keyLabel="\uD83C\uDF7A"
-            android:keyOutputText="\uD83C\uDF7A"/>
-        <Key
-            android:keyLabel="\uD83C\uDF7B"
-            android:keyOutputText="\uD83C\uDF7B"/>
-        <Key
-            android:keyLabel="\uD83C\uDF77"
-            android:keyOutputText="\uD83C\uDF77"/>
-        <Key
-            android:keyLabel="\uD83C\uDF79"
-            android:keyOutputText="\uD83C\uDF79"/>
+        <!--<Key-->
+            <!--android:keyLabel="\uD83C\uDF78"-->
+            <!--android:keyOutputText="\uD83C\uDF78"/>-->
+        <!--<Key-->
+            <!--android:keyLabel="\uD83C\uDF7A"-->
+            <!--android:keyOutputText="\uD83C\uDF7A"/>-->
+        <!--<Key-->
+            <!--android:keyLabel="\uD83C\uDF7B"-->
+            <!--android:keyOutputText="\uD83C\uDF7B"/>-->
+        <!--<Key-->
+            <!--android:keyLabel="\uD83C\uDF77"-->
+            <!--android:keyOutputText="\uD83C\uDF77"/>-->
+        <!--<Key-->
+            <!--android:keyLabel="\uD83C\uDF79"-->
+            <!--android:keyOutputText="\uD83C\uDF79"/>-->
         <Key
             android:keyLabel="\uD83C\uDF76"
             android:keyOutputText="\uD83C\uDF76"/>
