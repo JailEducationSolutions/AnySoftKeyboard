@@ -8,7 +8,7 @@
         android:summary="@string/special_dictionaries_group_summary" />
 
     <net.evendanan.pushingpixels.SwitchPreference
-        android:defaultValue="true"
+        android:defaultValue="false"
         android:key="candidates_on"
         android:persistent="true"
         android:title="@string/candidates_on"
@@ -34,7 +34,7 @@
     </Preference>
 
     <CheckBoxPreference
-        android:defaultValue="true"
+        android:defaultValue="false"
         android:dependency="candidates_on"
         android:key="quick_fix"
         android:persistent="true"

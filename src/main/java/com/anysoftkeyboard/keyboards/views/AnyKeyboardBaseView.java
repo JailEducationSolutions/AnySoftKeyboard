@@ -54,6 +54,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.widget.PopupWindow;
+import android.widget.Toast;
 
 import com.anysoftkeyboard.AskPrefs.AnimationsLevel;
 import com.anysoftkeyboard.api.KeyCodes;
@@ -1927,6 +1928,7 @@ public class AnyKeyboardBaseView extends View implements
             downEvent.recycle();
         }
 
+//        Toast.makeText(packageContext, "Hey!", Toast.LENGTH_LONG).show();
         setPopupKeyboardWithView(x, y, mMiniKeyboard);
         return true;
     }
