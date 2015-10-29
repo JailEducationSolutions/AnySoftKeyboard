@@ -21,7 +21,7 @@
             android:summaryOff="@string/candidates_off_summary"/>
 
         <CheckBoxPreference
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:dependency="candidates_on"
             android:key="auto_complete"
             android:persistent="true"
