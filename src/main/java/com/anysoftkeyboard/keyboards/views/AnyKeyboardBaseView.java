@@ -1852,7 +1852,7 @@ public class AnyKeyboardBaseView extends View implements
         final AnyPopupKeyboard keyboard;
         if (popupKey.popupCharacters != null) {
             keyboard = new AnyPopupKeyboard(getContext()
-                    .getApplicationContext(), popupKey.popupCharacters,
+                    .getApplicationContext(), popupKey.label + popupKey.popupCharacters.toString(),
                     mMiniKeyboard.getThemedKeyboardDimens(), null);
         } else {
             keyboard = new AnyPopupKeyboard(getContext().getApplicationContext(),
