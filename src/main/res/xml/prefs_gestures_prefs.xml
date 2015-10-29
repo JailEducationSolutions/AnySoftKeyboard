@@ -10,7 +10,7 @@
         android:title="@string/gesture_settings">
 
         <net.evendanan.pushingpixels.ListPreference
-            android:defaultValue="@string/swipe_action_value_shift"
+            android:defaultValue="@string/swipe_action_value_none"
             android:dialogTitle="@string/swipe_up_action_title"
             android:entries="@array/swipe_action_types_names"
             android:entryValues="@array/swipe_action_types_values"
@@ -28,7 +28,7 @@
             android:title="@string/swipe_down_action"/>
 
         <net.evendanan.pushingpixels.ListPreference
-            android:defaultValue="@string/swipe_action_value_next_symbols"
+            android:defaultValue="@string/swipe_action_value_none"
             android:dialogTitle="@string/swipe_left_action_title"
             android:entries="@array/swipe_action_types_names"
             android:entryValues="@array/swipe_action_types_values"
@@ -37,7 +37,7 @@
             android:title="@string/swipe_left_action"/>
 
         <net.evendanan.pushingpixels.ListPreference
-            android:defaultValue="@string/swipe_action_value_next_alphabet"
+            android:defaultValue="@string/swipe_action_value_none"
             android:dialogTitle="@string/swipe_right_action_title"
             android:entries="@array/swipe_action_types_names"
             android:entryValues="@array/swipe_action_types_values"
@@ -46,7 +46,7 @@
             android:title="@string/swipe_right_action"/>
 
         <net.evendanan.pushingpixels.ListPreference
-            android:defaultValue="@string/swipe_action_value_next_symbols"
+            android:defaultValue="@string/swipe_action_value_none"
             android:dialogTitle="@string/swipe_left_space_bar_action_title"
             android:entries="@array/swipe_action_types_names"
             android:entryValues="@array/swipe_action_types_values"
@@ -55,7 +55,7 @@
             android:title="@string/swipe_left_space_bar_action"/>
 
         <net.evendanan.pushingpixels.ListPreference
-            android:defaultValue="@string/swipe_action_value_next_alphabet"
+            android:defaultValue="@string/swipe_action_value_none"
             android:dialogTitle="@string/swipe_right_space_bar_action_title"
             android:entries="@array/swipe_action_types_names"
             android:entryValues="@array/swipe_action_types_values"
@@ -64,7 +64,7 @@
             android:title="@string/swipe_right_space_bar_action"/>
 
         <net.evendanan.pushingpixels.ListPreference
-            android:defaultValue="@string/swipe_action_value_next_symbols"
+            android:defaultValue="@string/swipe_action_value_none"
             android:dialogTitle="@string/swipe_left_two_fingers_action"
             android:entries="@array/swipe_action_types_names"
             android:entryValues="@array/swipe_action_types_values"
@@ -73,7 +73,7 @@
             android:title="@string/swipe_left_two_fingers_action"/>
 
         <net.evendanan.pushingpixels.ListPreference
-            android:defaultValue="@string/swipe_action_value_next_alphabet"
+            android:defaultValue="@string/swipe_action_value_none"
             android:dialogTitle="@string/swipe_right_two_fingers_action_title"
             android:entries="@array/swipe_action_types_names"
             android:entryValues="@array/swipe_action_types_values"
@@ -82,7 +82,7 @@
             android:title="@string/swipe_right_two_fingers_action"/>
 
         <net.evendanan.pushingpixels.ListPreference
-            android:defaultValue="@string/swipe_action_value_none"
+            android:defaultValue="@string/swipe_action_value_hide"
             android:dialogTitle="@string/swipe_up_from_spacebar_action_title"
             android:entries="@array/swipe_action_types_names"
             android:entryValues="@array/swipe_action_types_values"
@@ -109,7 +109,7 @@
             android:title="@string/separate_gesture_action"/>
 
         <net.evendanan.pushingpixels.ListPreference
-            android:defaultValue="@string/settings_default_swipe_velocity_threshold"
+            android:defaultValue="@string/swipe_action_value_none"
             android:dialogTitle="@string/settings_swipe_velocity_threshold_title"
             android:entries="@array/settings_key_swipe_velocity_threshold_names"
             android:entryValues="@array/settings_key_swipe_velocity_threshold_values"
@@ -118,7 +118,7 @@
             android:title="@string/settings_swipe_velocity_threshold_title"/>
 
         <net.evendanan.pushingpixels.ListPreference
-            android:defaultValue="@string/settings_default_swipe_distance_threshold"
+            android:defaultValue="@string/swipe_action_value_none"
             android:dialogTitle="@string/settings_swipe_distance_threshold_title"
             android:entries="@array/settings_key_swipe_distance_threshold_names"
             android:entryValues="@array/settings_key_swipe_distance_threshold_values"
