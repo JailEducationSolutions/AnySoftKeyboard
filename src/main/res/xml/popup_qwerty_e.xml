@@ -9,8 +9,9 @@
         <Key android:codes="8364" android:keyEdgeFlags="right"/>
     </Row>
     <Row android:rowEdgeFlags="bottom">
-        <!-- 3èéê -->
-        <Key android:codes="51" android:keyEdgeFlags="left"/>
+        <!-- e3èéê -->
+        <Key android:codes="101" android:keyEdgeFlags="left"/>
+        <Key android:codes="51"/>
         <Key android:codes="232"/>
         <Key android:codes="233"/>
         <Key android:codes="234" android:keyEdgeFlags="right"/>

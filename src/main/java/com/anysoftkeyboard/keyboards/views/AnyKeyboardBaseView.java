@@ -1851,14 +1851,16 @@ public class AnyKeyboardBaseView extends View implements
     private void setupMiniKeyboardContainer(Context packageContext, Key popupKey, boolean isSticky) {
         final AnyPopupKeyboard keyboard;
         if (popupKey.popupCharacters != null) {
-            keyboard = new AnyPopupKeyboard(getContext()
-                    .getApplicationContext(), popupKey.label + popupKey.popupCharacters.toString(),
-                    mMiniKeyboard.getThemedKeyboardDimens(), null);
+            keyboard = new AnyPopupKeyboard(getContext().getApplicationContext(),
+                    popupKey.popupCharacters.toString(),
+                    mMiniKeyboard.getThemedKeyboardDimens(),
+                    null);
         } else {
             keyboard = new AnyPopupKeyboard(getContext().getApplicationContext(),
                     popupKey.externalResourcePopupLayout ? packageContext : getContext().getApplicationContext(),
                     popupKey.popupResId,
-                    mMiniKeyboard.getThemedKeyboardDimens(), null);
+                    mMiniKeyboard.getThemedKeyboardDimens(),
+                    null);
         }
         mChildKeyboardActionListener.setInOneShot(!isSticky);
 
@@ -1928,7 +1930,6 @@ public class AnyKeyboardBaseView extends View implements
             downEvent.recycle();
         }
 
-//        Toast.makeText(packageContext, "Hey!", Toast.LENGTH_LONG).show();
         setPopupKeyboardWithView(x, y, mMiniKeyboard);
         return true;
     }
